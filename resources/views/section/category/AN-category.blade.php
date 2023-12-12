@@ -30,7 +30,7 @@
                         <div class="row" id="sortableContainer">
                             <div class="col-lg-4 col-md-6 col-sm-6 sortable-item">
                                 <div class="product__item">
-                                    <a href="./suzume-details.html">
+                                    <a href="{{ route('film-suzume') }}">
                                         <div class="product__item__pic set-bg"
                                             data-setbg="{{ asset('img/category/anim-1.jpg') }}">
                                             <div class="ep">Complete</div>
@@ -45,14 +45,14 @@
                                             <li>Action</li>
                                             <li>Science Fiction</li>
                                         </ul>
-                                        <h5><a href="./suzume-details.html">Suzume no Tojimari</a></h5>
+                                        <h5><a href="{{ route('film-suzume') }}">Suzume no Tojimari</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 sortable-item">
                                 <div class="product__item">
 
-                                    <a href="#">
+                                    <a href="{{ route('film-suzume') }}">
                                         <div class="product__item__pic set-bg"
                                             data-setbg="{{ asset('img/category/anim-2.jpg') }}">
                                             <div class="ep">Complete</div>
@@ -66,13 +66,13 @@
                                             <li>Action</li>
                                             <li>Science Fiction</li>
                                         </ul>
-                                        <h5><a href="#">Kimi no Nawa</a></h5>
+                                        <h5><a href="{{ route('film-suzume') }}">Kimi no Nawa</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 sort sortable-item">
                                 <div class="product__item">
-                                    <a href="#">
+                                    <a href="{{ route('film-suzume') }}">
                                         <div class="product__item__pic set-bg"
                                             data-setbg="{{ asset('img/category/anim-4.jpg') }}">
                                             <div class="ep">Complete</div>
@@ -85,13 +85,13 @@
                                             <li>Animation</li>
                                             <li>Science Fiction</li>
                                         </ul>
-                                        <h5><a href="#">Ninja Turtles : Mutant Mayhem</a></h5>
+                                        <h5><a href="{{ route('film-suzume') }}">Ninja Turtles : Mutant Mayhem</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 sortable-item">
                                 <div class="product__item">
-                                    <a href="#">
+                                    <a href="{{ route('film-suzume') }}">
                                         <div class="product__item__pic set-bg"
                                             data-setbg="{{ asset('img/category/anim-3.jpg') }}">
                                             <div class="ep">Complete</div>
@@ -103,13 +103,13 @@
                                         <ul>
                                             <li>Animation</li>
                                         </ul>
-                                        <h5><a href="TnK">Tenki no Ko</a></h5>
+                                        <h5><a href="{{ route('film-suzume') }}">Tenki no Ko</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 sortable-item">
                                 <div class="product__item">
-                                    <a href="#">
+                                    <a href="{{ route('film-suzume') }}">
                                         <div class="product__item__pic set-bg"
                                             data-setbg="{{ asset('img/category/anim-5.jpg') }}">
                                             <div class="ep">18 / 18</div>
@@ -122,13 +122,13 @@
                                             <li>Animation</li>
                                             <li>Action</li>
                                         </ul>
-                                        <h5><a href="#">Spider-man : Across the Spiderverse</a></h5>
+                                        <h5><a href="{{ route('film-suzume') }}">Spider-man : Across the Spiderverse</a></h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6 sortable-item">
                                 <div class="product__item">
-                                    <a href="">
+                                    <a href="{{ route('film-suzume') }}">
                                         <div class="product__item__pic set-bg"
                                             data-setbg="{{ asset('img/category/anim-6.jpg') }}">
                                             <div class="ep">18 / 18</div>
@@ -141,7 +141,7 @@
                                             <li>Animation</li>
                                             <li>Action</li>
                                         </ul>
-                                        <h5><a href="DNSU.hmtl">Doraemon : Nobita's Sky Utopia</a></h5>
+                                        <h5><a href="{{ route('film-suzume') }}">Doraemon : Nobita's Sky Utopia</a></h5>
                                     </div>
                                 </div>
                             </div>

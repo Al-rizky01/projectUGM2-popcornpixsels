@@ -105,6 +105,14 @@ Route::get('/categories/science-fiction',function(){
          'category' => 'Science Fiction']);
 })->name('categories-sf');
 
+
+Route::get('/exsample1',function(){
+    return view('section.film.suzume', [
+        'title' => 'Exsamle - Film1',
+
+         'category' => 'Animation']);
+})->name('film-suzume');
+
 Route::post('/login', 'UserController@login')->name('login.action');
 Route::post('user/login4', [UserController::class, 'login'])->name('user.login');
 
